@@ -1,0 +1,14 @@
+<div style="text-align: center">
+  <h1>Register Form</h1>
+
+    <label for="">Email</label><br>
+    <input type="text" value="Dung ngModel" [value]="email" [(ngModel)]="email"><br>
+    <label for="">FullName</label><br>
+    <input type="text" value="Enter FullName" [value]="fullname" #thamso><br>
+    <br><br>
+    <button class="btn btn-primary" (click)="evenbinding(thamso.value)">Submit</button>
+
+  <br><br>
+  <h4>Email: {{email}}</h4>
+  <h4>FullName: {{fullname}}</h4>
+</div>

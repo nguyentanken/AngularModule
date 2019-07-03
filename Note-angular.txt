@@ -1,0 +1,30 @@
+Chu y: trong file khong co thu muc node_module nen chay bi loi
+cai : npm install bootstrap jquery popper.js
+
+* Component
+* Module
+Lệnh tạo Module => ng g m <Tên Module>
+Lệnh tạo Component => ng g c <Tên Component>
+vidu1: ng g m Baitap3
+       cd Baitap3
+       ng g c Baitap3Header
+Lệnh tạo Component trong Module => ng g c --module=<Tên folder Module>
+vidu2: ng g m Baitap3
+	    ng g c Baitap3Header --module=baitap3
+
+* Gợi ý bài tập về nhà
+- BaiTapModule
+	+ HeaderComponent
+	+ Carousel
+	+ ItemSanPham
+	+ ListSmartPhone
+		ItemSanPham
+		ItemSanPham
+		ItemSanPham
+		ItemSanPham
+	+ ListLapTop
+		ItemSanPham
+		ItemSanPham
+		ItemSanPham
+		ItemSanPham
+	+ PROMOTION

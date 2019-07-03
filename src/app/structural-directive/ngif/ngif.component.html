@@ -1,0 +1,15 @@
+<h3 style="color:red">*Ngif</h3>
+<div *ngIf="status">Cybersoft</div>
+<button class="btn btn-success">Submit</button>
+<br>
+<hr>
+<div *ngIf="statusLogin; else NoiDungElse">
+  <button class="btn btn-primary" (click)="dangXuat()">Dang Xuat</button>
+  <h2>Xin Chao !!!</h2>
+</div>
+
+<ng-template #NoiDungElse>
+
+  <button class="btn btn-success" (click)="dangNhap()">Dang Nhap</button>
+  <h3>Vui long dang nhap !</h3>
+</ng-template>
